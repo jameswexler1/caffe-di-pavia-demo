@@ -1,0 +1,12 @@
+{{ $category := .Get "category" }}
+<ul class="menu-list" data-aos="fade-up">
+  {{ range (index site.Data.menu $category) }}
+  <li class="menu-item">
+    <div>
+      <strong>{{ .name }}</strong>
+      <span class="muted">{{ .description }}</span>
+    </div>
+    <div class="price">€{{ printf "%.2f" .price }}</div>
+  </li>
+  {{ end }}
+</ul>

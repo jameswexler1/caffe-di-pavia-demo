@@ -1,0 +1,29 @@
+coffee:
+  - name: Espresso
+    price: 1.50
+    description: Il classico colpo italiano
+  - name: Cappuccino
+    price: 2.50
+    description: Schiuma, latte e un sorriso
+  - name: Latte
+    price: 3.00
+    description: Morbido e cremoso
+  - name: Americano
+    price: 2.00
+    description: Espresso allungato con acqua calda
+
+seasonal:
+  - name: Affogato al Caffè
+    price: 4.50
+    description: Gelato alla vaniglia affogato nell'espresso
+  - name: Pavia Cold Brew
+    price: 3.50
+    description: Infusione lenta, servita sul ghiaccio
+
+pastries:
+  - name: Cornetto
+    price: 1.20
+    description: Cornetto sfornato ogni mattina
+  - name: Torta di Riso
+    price: 2.80
+    description: La torta di riso tipica di Pavia

@@ -1,0 +1,53 @@
+baseURL = "/"
+languageCode = "it"
+title = "Il Caffè di Pavia"
+theme = "pavia-cafe"
+[pagination]
+  pagerSize = 6
+enableRobotsTXT = true
+
+[params]
+  description = "Un caffè artigianale nel cuore di Pavia. Caffè di specialità, paste fresche e ospitalità calorosa."
+  address = "Corso Strada Nuova, Pavia, Italia"
+  phone = "+39 0382 000000"
+  email = "ciao@ilcaffedipavia.example"
+  openGraphImage = "/images/og-cafe.jpg"
+  instagram = "https://instagram.com/ilcaffedipavia"
+  facebook = "https://facebook.com/ilcaffedipavia"
+  tiktok = ""
+  googleMapsQuery = "Il Caffè di Pavia, Pavia, Italia"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Menu"
+    url = "/menu/"
+    weight = 2
+  [[menu.main]]
+    name = "Galleria"
+    url = "/gallery/"
+    weight = 3
+  [[menu.main]]
+    name = "Chi siamo"
+    url = "/about/"
+    weight = 4
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 5
+  [[menu.main]]
+    name = "Contatti"
+    url = "/contact/"
+    weight = 6
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  page = ["HTML"]
+  taxonomy = ["HTML", "RSS"]
+
+[markup.goldmark.renderer]
+  unsafe = true

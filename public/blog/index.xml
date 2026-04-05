@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Il Caffè di Pavia</title>
+    <link>//localhost:1313/blog/</link>
+    <description>Recent content in Blog on Il Caffè di Pavia</description>
+    <generator>Hugo</generator>
+    <language>it</language>
+    <lastBuildDate>Sun, 18 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weekend di inaugurazione</title>
+      <link>//localhost:1313/blog/grand-opening/</link>
+      <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/grand-opening/</guid>
+      <description>&lt;p&gt;Abbiamo preparato, voi siete arrivati e insieme abbiamo vissuto un weekend indimenticabile. Ecco alcuni momenti.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Degustazioni di espresso gratuite&lt;/li&gt;&#xA;&lt;li&gt;Concerto acustico dal vivo di un duo locale&lt;/li&gt;&#xA;&lt;li&gt;Bambini che decoravano i cornetti (caotico, ma adorabile)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;A presto! Seguiteci su Instagram per aggiornamenti ed eventi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

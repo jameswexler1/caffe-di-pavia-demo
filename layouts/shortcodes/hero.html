@@ -1,0 +1,14 @@
+<section class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div data-aos="fade-right">
+        <h1>{{ .Get "title" }}</h1>
+        <p class="lead">{{ .Get "subtitle" }}</p>
+        <div class="actions">
+          <a class="btn" href="{{ .Get "ctaPrimaryLink" }}">{{ .Get "ctaPrimaryText" }}</a>
+          <a class="btn alt" href="{{ .Get "ctaSecondaryLink" }}">{{ .Get "ctaSecondaryText" }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

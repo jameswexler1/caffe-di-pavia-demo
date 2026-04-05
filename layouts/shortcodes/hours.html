@@ -1,0 +1,5 @@
+<table class="hours" data-aos="fade-up">
+  {{ range site.Data.hours }}
+  <tr><td class="day">{{ .day }}</td><td>{{ .hours }}</td></tr>
+  {{ end }}
+</table>
